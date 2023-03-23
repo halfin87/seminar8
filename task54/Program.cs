@@ -45,7 +45,7 @@ void Printmatrix(int[,] array)
 
 void GetNewArray(int[,] array)
 {
-  for (int i = 0; i < array.GetLength(0) - 1; i++)
+  for (int i = 0; i < array.GetLength(0); i++)
   {
     for (int j = i + 1; j < array.GetLength(1); j++)
     {
